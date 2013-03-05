@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StealFocus.BizUnitExtensions", "StealFocus.BizUnitExtensions\StealFocus.BizUnitExtensions.csproj", "{F1899DDC-51AB-4F3F-AACD-9BA55A688178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StealFocus.BizUnitExtensions.Tests", "StealFocus.BizUnitExtensions.Tests\StealFocus.BizUnitExtensions.Tests.csproj", "{B5FF06F2-F52B-42E1-AFEC-97BD704F31DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D730F5BC-CCE4-4001-ADB5-D74CC6455E9E}"
+	ProjectSection(SolutionItems) = preProject
+		BuildServer.testsettings = BuildServer.testsettings
+		FxCopCustomDictionary.xml = FxCopCustomDictionary.xml
+		Local.testsettings = Local.testsettings
+		Settings.StyleCop = Settings.StyleCop
+		StealFocus.BizUnitExtensions.ruleset = StealFocus.BizUnitExtensions.ruleset
+		StealFocus.BizUnitExtensions.StrongNameKeyPair.snk = StealFocus.BizUnitExtensions.StrongNameKeyPair.snk
+		StealFocus.BizUnitExtensions.StrongNamePublicKey.snk = StealFocus.BizUnitExtensions.StrongNamePublicKey.snk
+		StealFocus.BizUnitExtensions.vsmdi = StealFocus.BizUnitExtensions.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AD3F718C-34B6-40F6-867B-225E18B14A7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{57B2E549-AB81-4E8D-900C-E8425EF6FBF9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artefacts", "Artefacts", "{00A09B8B-ECFD-4055-95A7-E765FFE07CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandFiles", "CommandFiles", "{027D745B-5E22-4335-A7E4-434DCAB82CF8}"
+	ProjectSection(SolutionItems) = preProject
+		CommandFiles\StealFocus.BizUnitExtensions.Build.cmd = CommandFiles\StealFocus.BizUnitExtensions.Build.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{9E299CA3-98AD-42B5-B4F8-A289D4DB3979}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\StealFocus.BizUnitExtensions.Build.proj = Scripts\StealFocus.BizUnitExtensions.Build.proj
+		Scripts\StealFocus.BizUnitExtensions.Build.Project.Assembly.targets = Scripts\StealFocus.BizUnitExtensions.Build.Project.Assembly.targets
+		Scripts\StealFocus.BizUnitExtensions.Build.Project.CSharp.targets = Scripts\StealFocus.BizUnitExtensions.Build.Project.CSharp.targets
+		Scripts\StealFocus.BizUnitExtensions.Build.Project.targets = Scripts\StealFocus.BizUnitExtensions.Build.Project.targets
+		Scripts\StealFocus.BizUnitExtensions.Build.Project.VisualBasic.targets = Scripts\StealFocus.BizUnitExtensions.Build.Project.VisualBasic.targets
+		Scripts\StealFocus.BizUnitExtensions.CCNet.proj = Scripts\StealFocus.BizUnitExtensions.CCNet.proj
+		Scripts\StealFocus.BizUnitExtensions.targets = Scripts\StealFocus.BizUnitExtensions.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{0284D3A9-13DF-47DB-BAF8-3B39F9A1F032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StealFocus.BizUnitExtensions", "StealFocus.BizUnitExtensions", "{B690C3CA-18B5-4FDD-882F-6555AF3049B9}"
+	ProjectSection(SolutionItems) = preProject
+		Artefacts\NuGet\StealFocus.BizUnitExtensions\StealFocus.BizUnitExtensions.nuspec = Artefacts\NuGet\StealFocus.BizUnitExtensions\StealFocus.BizUnitExtensions.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{A62E39F4-EF5A-4661-90B5-C26E3E113013}"
+	ProjectSection(SolutionItems) = preProject
+		Artefacts\NuGet\StealFocus.BizUnitExtensions\Content\IntegrationTestExample.cs.pp = Artefacts\NuGet\StealFocus.BizUnitExtensions\Content\IntegrationTestExample.cs.pp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = StealFocus.BizUnitExtensions.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1899DDC-51AB-4F3F-AACD-9BA55A688178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1899DDC-51AB-4F3F-AACD-9BA55A688178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1899DDC-51AB-4F3F-AACD-9BA55A688178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1899DDC-51AB-4F3F-AACD-9BA55A688178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FF06F2-F52B-42E1-AFEC-97BD704F31DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FF06F2-F52B-42E1-AFEC-97BD704F31DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FF06F2-F52B-42E1-AFEC-97BD704F31DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FF06F2-F52B-42E1-AFEC-97BD704F31DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5FF06F2-F52B-42E1-AFEC-97BD704F31DA} = {AD3F718C-34B6-40F6-867B-225E18B14A7E}
+		{0284D3A9-13DF-47DB-BAF8-3B39F9A1F032} = {00A09B8B-ECFD-4055-95A7-E765FFE07CF1}
+		{B690C3CA-18B5-4FDD-882F-6555AF3049B9} = {0284D3A9-13DF-47DB-BAF8-3B39F9A1F032}
+		{A62E39F4-EF5A-4661-90B5-C26E3E113013} = {B690C3CA-18B5-4FDD-882F-6555AF3049B9}
+	EndGlobalSection
+EndGlobal

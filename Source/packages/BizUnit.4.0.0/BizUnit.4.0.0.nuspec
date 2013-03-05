@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>BizUnit</id>
+    <version>4.0.0</version>
+    <title>BizUnit</title>
+    <authors>Ben</authors>
+    <owners>Ben</owners>
+    <licenseUrl>http://bizunit.codeplex.com/license</licenseUrl>
+    <projectUrl>http://bizunit.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package description.</description>
+    <summary>BizUnit is a flexible and extensible declarative test framework targeted that rapidly enables the automated testing of distributed systems.</summary>
+    <copyright>Copyright (c) 2011, Kevin B. Smith</copyright>
+    <references />
+  </metadata>
+</package>
