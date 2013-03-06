@@ -9,7 +9,7 @@ namespace $rootnamespace$
 
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-	using StealFocus.BizUnitExtensions;
+    using StealFocus.BizUnitExtensions;
 
     [TestClass]
     public class IntegrationTestExample
@@ -28,11 +28,11 @@ namespace $rootnamespace$
                 };
             testCase.ExecutionSteps.Add(msmqPurgeStep1);
             MsmqPurgeStep msmqPurgeStep2 = new MsmqPurgeStep
-				{
-					FailOnError = true,
-					Name = "Purge 'MessageOut'.",
-					QueuePath = ".\\private$\\AcmeCorp.BizTalkBuildSample.MessageOut"
-				};
+                {
+                    FailOnError = true,
+                    Name = "Purge 'MessageOut'.",
+                    QueuePath = ".\\private$\\AcmeCorp.BizTalkBuildSample.MessageOut"
+                };
             testCase.ExecutionSteps.Add(msmqPurgeStep2);
             XmlDocument messageBody = new XmlDocument();
             messageBody.LoadXml(@"<ns0:Root xmlns:ns0='http://schemas.AcmeCorp.com/BizTalkBuildSample/MessageIn'><ValueIn>ValueIn_0</ValueIn></ns0:Root>");
